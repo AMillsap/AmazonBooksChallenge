@@ -11,7 +11,7 @@ interface MainActivityContract
     interface Presenter
     {
         fun attatchView(view : MainActivityContract.View)
-        fun requestNewList(): ArrayList<AmazonResult>
+        //fun requestNewList(): ArrayList<AmazonResult>
 
     }
 }

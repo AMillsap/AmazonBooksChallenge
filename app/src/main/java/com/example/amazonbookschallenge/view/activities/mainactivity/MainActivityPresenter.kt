@@ -16,7 +16,7 @@ class MainActivityPresenter: MainActivityContract.Presenter
         viewContract = view
     }
 
-    override fun requestNewList() : ArrayList<AmazonResult>
+    /*override fun requestNewList() : ArrayList<AmazonResult>
     {
         val service = AmazonService.getAmazonCallService()
         var response = ArrayList<AmazonResult>()
@@ -27,5 +27,5 @@ class MainActivityPresenter: MainActivityContract.Presenter
             }
         }
         return response
-    }
+    }*/
 }

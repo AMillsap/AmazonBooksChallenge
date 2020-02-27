@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity()
         requestNewList()
     }
 
-    fun requestNewList() : ArrayList<AmazonResult>
+    fun requestNewList()
     {
         val service = AmazonService.getAmazonCallService()
         var response = ArrayList<AmazonResult>()
@@ -37,6 +37,5 @@ class MainActivity : AppCompatActivity()
                 adapter.addList(response)
             }
         }
-        return response
     }
 }
